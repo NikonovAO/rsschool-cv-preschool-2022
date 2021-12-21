@@ -42,3 +42,13 @@ function validPass(password){
 ```
 
 ***
+
+## Courses:
+1. **HTML** [https://www.codecademy.com/learn/learn-html](https://www.codecademy.com/learn/learn-html)
+2. **CSS** [https://www.codecademy.com/learn/learn-css](https://www.codecademy.com/learn/learn-css)
+3. **JavaScript** [https://learn.javascript.ru/](https://learn.javascript.ru/)
+
+***
+
+## English
+A1 (I study English on my own)
