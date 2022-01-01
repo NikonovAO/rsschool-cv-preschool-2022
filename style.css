@@ -102,6 +102,10 @@ body {
 /*----------Main----------*/
 
 .main {
+  
+}
+
+.main__contacts {
   background: linear-gradient(to right, lightcyan, lightskyblue);
   display: flex;
   align-items: center;
@@ -109,12 +113,12 @@ body {
   padding: 30px 15px;
 }
 
-.main__contacts {
+.contacts__info {
   max-width: 400px;
   font-weight: 600;
 }
 
-.main__contacts-name {
+.contacts__name {
   font-weight: 700;
   font-size: 32px;
   border-bottom: 1px solid #434343;
@@ -122,7 +126,7 @@ body {
   line-height: 100%;
 }
 
-.main__contacts-job {
+.contacts__job {
   border-bottom: 1px solid #434343;
   padding: 20px 0;
 }
@@ -150,14 +154,14 @@ body {
   color: chocolate;
 }
 
-.contacts-map {
+.contacts__map {
   display: flex;
   align-items: center;
   border-bottom: 1px solid#434343;
   padding: 20px 0;
 }
 
-.contacts-map__link {
+.contacts__map-link {
   text-decoration: none;
   margin-right: 10px;
 }
@@ -172,7 +176,7 @@ body {
   transition: 0.3s;
 }
 
-.main__foto {
+.contacts__foto {
   min-width: 370px;
   min-height: 370px;
   border-radius: 50%;
@@ -182,12 +186,12 @@ body {
 }
 
 @media (max-width: 760px) {
-  .main__foto {
+  .contacts__foto {
     display: none;
   }
 }
 
-.main__foto img {
+.contacts__foto img {
   position: absolute;
   top: -750px;
   right: -170px;
