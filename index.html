@@ -14,11 +14,11 @@
   <div class="wrapper">
 
     <header class="header">
-      <a href="#" class="header__logo">my Cv</a>
+      <a href="#main" class="header__logo">my Cv</a>
       <nav class="menu">
         <ul class="menu__list">
           <li class="menu__item">
-            <a href="#" class="menu__link">Home</a>
+            <a href="#main" class="menu__link">Home</a>
           </li>
           <li class="menu__item">
             <a href="#about" class="menu__link">About</a>
@@ -30,7 +30,7 @@
       </nav>
     </header>
 
-    <main class="main">
+    <main class="main" id = "main">
 
       <section class="main__contacts contacts">
         <div class="contacts__info">
@@ -144,6 +144,32 @@
       
       <section class="main__about about" id = "about">
         <h2 class="about__title">About me</h2>
+        <div class="about__me">
+          <h3 class="about__me-title">Summary:</h3>  
+          <div class="about__me-content">
+            <p>I am currently studying HTML, CSS, JavaScript and English</p>
+            <p>Prior to that, I worked as a process control engineer, a leading process control engineer and a shop manager.</p>
+            <p>I have experience in programming controllers Siemens, Yokogawa, Honeywell.</p>
+            <p>
+              Participated in commissioning works at Yamal LNG sites, LUKOIL-Volgogradneftepererabotka LLC, Saratovorgsintez LLC
+              He also took an active part in the development of projects for process control systems.
+            </p>
+            <p>
+              Due to the lack of demand in our region on the labor market for process control engineers, 
+              I decided to change my specialization.
+            </p>
+            <p>I chose the Frontend Developer specialty because I like to develop various projects.</p>
+            <p>
+              As part of the Rolling Skopes School - JavaScript / Front-end training course, I have completed several training projects - Wildlife, Photo Filter, Virtual Piano, Online Zoo.
+            </p>
+            <p>
+              My main goal is to gain knowledge and practical skills in HTML, CSS, JavaScript and the React library necessary for 
+              further employment.
+            </p>
+          </div>
+        </div>
+
+
         <div class="education-wrapper">
           <div class="about__education education">
             <h3 class="education__title">Education:</h3>
@@ -326,6 +352,7 @@
     </footer>
   </div>
   <script src="./src/rainbow-custom.min.js"></script>
+  <script src="./src/scroll.js"></script>
 </body>
 
 </html>

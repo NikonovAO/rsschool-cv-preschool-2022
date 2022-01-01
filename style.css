@@ -211,6 +211,41 @@ body {
   padding: 30px 5px;
 }
 
+.about__me {
+  width: 95%;
+  margin: 0 auto 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  background: linear-gradient(316deg, rgba(254, 189, 171, 0.74) 30%, rgba(243, 169, 248, 0.66) 51%, #E0D8F0 80%, #EAF7FE 128%, #EAF7FE 150%), linear-gradient(316deg, rgba(254, 189, 171, 0.74) 30%, rgba(243, 169, 248, 0.66) 51%, #E0D8F0 80%, #EAF7FE 128%, #EAF7FE 150%);
+}
+
+@media (max-width: 1120px) {
+  .about__me {
+    width: 97%;
+  }
+}
+
+@media (max-width: 960px) {
+  .about__me {
+    width: 80%;
+  }
+}
+
+@media (max-width: 760px) {
+  .about__me {
+    width: 95%;
+  }
+}
+
+.about__me-title {
+  font-variant-caps: petite-caps;
+  font-weight: 900;
+  font-size: 22px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
 .education-wrapper {
   display: flex;
   flex-wrap: wrap;
