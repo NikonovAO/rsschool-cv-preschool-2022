@@ -100,10 +100,6 @@ body {
 
 /*----------Main----------*/
 
-.main {
-  
-}
-
 .main__contacts {
   background: linear-gradient(to right, lightcyan, lightskyblue);
   display: flex;
