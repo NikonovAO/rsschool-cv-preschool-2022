@@ -130,7 +130,8 @@ pre, code {
 
 pre {
     background: #fdf6e3;
-    color: #657b83
+    color: #000000;
+    opacity: 0.8;
 }
 
 pre .comment {

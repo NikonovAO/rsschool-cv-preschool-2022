@@ -533,26 +533,28 @@ pre {
 .card__title {
   color: #606060;
   font-weight: 600;
-  padding: 5px 0;
-  font-size: 20px;
+  padding: 10px 0;
+  font-size: 24px;
 }
 
 .card__skills {
   color: #606060;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .card__link-task {
   color: #606060;
   font-weight: 600;
   position: relative;
+  font-size: 20px;
+  padding: 12px 0;
 }
 
 .card__link-task::after {
   position: absolute;
   content: '';
   left: 0px;
-  bottom: -2px;
+  bottom: 6px;
   width: 100%;
   height: 2px;
   transform: scale(0);
